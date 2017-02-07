@@ -1,4 +1,4 @@
-<?php namespace Freelyformed\LaravelFirebase;
+<?php namespace Nigelheap\LaravelFirebase;
 
 use Illuminate\Support\ServiceProvider;
 use GuzzleHttp\Client as GuzzleHttpClient;
