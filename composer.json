@@ -1,0 +1,22 @@
+{
+    "name": "nigelheap/laravel-firebase",
+    "version": "0.0.4",
+    "description": "A laravel wrapper for paragraph1/php-fcm, A copy of freelyformed/laravel-firebase which no longer exists",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernest Okot",
+            "email": "okot08@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "paragraph1/php-fcm": "^0.4.0",
+        "illuminate/support": "5.0.x|5.1.x|5.2.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nigelheap\\LaravelFirebase\\": "src"
+        }
+    }
+}
