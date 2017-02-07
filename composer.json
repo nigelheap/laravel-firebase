@@ -1,6 +1,6 @@
 {
     "name": "nigelheap/laravel-firebase",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A laravel wrapper for paragraph1/php-fcm, A copy of freelyformed/laravel-firebase which no longer exists",
     "license": "MIT",
     "authors": [

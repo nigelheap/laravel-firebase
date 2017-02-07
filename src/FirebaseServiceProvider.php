@@ -8,6 +8,10 @@ class FirebaseServiceProvider extends ServiceProvider {
 
     protected $defer = false;
 
+    /**
+     * Include config to be published
+     * @return Void 
+     */
     public function boot() {
         $configPath = __DIR__ . '/../config/firebase.php';
 
@@ -18,6 +22,10 @@ class FirebaseServiceProvider extends ServiceProvider {
         $this->publishes([$configPath => $publishPath], 'config');
     }
 
+    /**
+     * Service provider register
+     * @return Void 
+     */
     public function register() {
         $this->mergeConfigFrom(config_path('firebase.php'), 'firebase');
 
