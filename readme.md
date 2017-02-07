@@ -1,6 +1,7 @@
 # Laravel Firebase
 
 This package is a laravel service provider for [Paragraph1/php-fcm](https://github.com/Paragraph1/php-fcm).
+A copy of freelyformed/laravel-firebase which no longer exists.
 
 ## Installation
 
